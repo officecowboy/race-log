@@ -6,8 +6,8 @@ An API using Python, Flask, and SQL with full CRUD operations.
 
 | Method | Endpoint| Description |
 |-|-|-|
-| GET | /race | List whole cat Collection |
-| GET | /race/id | Retrieves specific cat Collection |
-| POST | /race | Create a cat Collection |
-| PUT | /race/id | Update a cat Collection |
-| DELETE | /race/id | Delete a cat Collection |
+| GET | /race | Lists all races |
+| GET | /race/id | Retrieves specific race |
+| POST | /race | Creates a race |
+| PUT | /race/id | Updates a race |
+| DELETE | /race/id | Deletes a race |
