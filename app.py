@@ -21,6 +21,10 @@ db.connect()
 db.drop_tables([Race])
 db.create_tables([Race])
 
+Race(date='2021-09-25', distance='Half-Marathon', duration='01:20:50').save()
+Race(date='2021-10-02', distance='18 Miles', duration='01:57:28').save()
+Race(date='2021-11-07', distance='Marathon', duration='02:59:40').save()
+Race(date='2022-03-04', distance='3000m', duration='00:09:33').save()
 Race(date='2022-04-09', distance='Marathon', duration='02:44:47').save()
 
 
